@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TaskHub</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<main>
+
+    <header>
+        <h1>TaskHub</h1>
+    </header>
+
+    <section>
+        <form id="formulario">
+            <input type="text" id="tareaInput" placeholder="Nueva tarea">
+            <button type="submit">Agregar</button>
+        </form>
+        <p id="error"></p>
+    </section>
+
+    <section>
+        <button id="filtroTodos">Todos</button>
+        <button id="filtroPendientes">Pendientes</button>
+        <button id="filtroCompletadas">Completadas</button>
+    </section>
+
+    <section>
+        <p>Pendientes: <span id="contador">0</span></p>
+        <ul id="lista"></ul>
+    </section>
+
+    <section>
+        <button id="limpiarCompletadas">Limpiar completadas</button>
+    </section>
+
+</main>
+
+<script src="js/app.Js"></script>
+</body>
+</html>
