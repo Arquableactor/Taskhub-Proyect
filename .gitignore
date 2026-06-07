@@ -1,0 +1,33 @@
+# ===== .NET / ASP.NET Core =====
+bin/
+obj/
+*.user
+*.suo
+
+# ===== Base de datos SQLite (local, no se versiona) =====
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# ===== Secretos (NUNCA subir) =====
+appsettings.*.local.json
+appsettings.Production.json
+.env
+*.env
+secrets.json
+
+# ===== Flutter (frontend que viene) =====
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+.idea/
+
+# ===== Editores / SO =====
+.vs/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
